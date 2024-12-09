@@ -1,0 +1,858 @@
+# Translation of Plugins - Photo Reviews for WooCommerce - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Photo Reviews for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-28 07:34:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Photo Reviews for WooCommerce - Development (trunk)\n"
+
+#. translators: %s: _max upload file size
+#: admin/admin.php:519
+msgid "KB (Max %s KB)."
+msgstr "KB (Max %s KB)."
+
+#: admin/admin.php:707
+msgid "Show review date"
+msgstr "Показать дату отзыва"
+
+#: frontend/single-page.php:191
+msgid "Please upload at least one image for your review!"
+msgstr "Пожалуйста, загрузите хотя бы одно изображение для вашего обзора!"
+
+#: frontend/single-page.php:182
+msgid "Please enter your email"
+msgstr "Введите адрес электронной почты"
+
+#: frontend/single-page.php:181
+msgid "Please enter your name"
+msgstr "Пожалуйста, введите Ваше имя"
+
+#: frontend/single-page.php:180
+msgid "Please enter your comment"
+msgstr "Пожалуйста, введите ваш комментарий"
+
+#: frontend/single-page.php:179
+msgid "Please select a rating"
+msgstr "Пожалуйста, выберите рейтинг"
+
+#: templates/viwcpr-template-masonry-html.php:141
+msgid "Reply from "
+msgstr "Ответ от "
+
+#: admin/admin.php:413
+msgid "Photo Reviews for WooCommerce Settings"
+msgstr "Настройки Photo Reviews for WooCommerce"
+
+#. Plugin Name of the plugin
+#: woo-photo-reviews.php admin/admin.php:1818
+msgid "Photo Reviews for WooCommerce"
+msgstr "Photo Reviews for WooCommerce"
+
+#: admin/admin.php:1228
+msgid "Include products"
+msgstr "Включить товары"
+
+#: admin/admin.php:1894
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: admin/admin.php:1547
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/admin.php:1435
+msgid "Enable this if you mean to offer coupon for reviews in review reminder."
+msgstr "Включите, если вы хотите предлагать купон для отзывов в напоминании об обзоре."
+
+#: admin/admin.php:1428
+msgid "Exclude non-coupon given products"
+msgstr "Исключить товары без купона"
+
+#: admin/admin.php:1423
+msgid "Products in these categories will not appear in review reminder email."
+msgstr "Товары в этих категориях не будут отображаться в электронном письме с напоминанием об отзыве."
+
+#: admin/admin.php:1328
+msgid "Product categories that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Категории товаров, к которым купон не будет применен или которые не могут быть в корзине для применения \"Фиксированной скидки на корзину\"."
+
+#: admin/admin.php:1308 admin/admin.php:1417
+msgid "Exclude categories"
+msgstr "Исключить категории"
+
+#: admin/admin.php:1302
+msgid "Product categories that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Категории продуктов, к которым будет применен купон или которые должны быть в корзине, чтобы применить «Фиксированную скидку корзины»."
+
+#: admin/admin.php:1287 admin/admin.php:1313
+msgid "Please enter category title"
+msgstr "Пожалуйста, введите название категории"
+
+#: admin/admin.php:1282
+msgid "Included categories"
+msgstr "Включенные категории"
+
+#: admin/admin.php:1276
+msgid "Products that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Товары, на которые не распространяется купон, или которые не могут быть в корзине, чтобы применить «Фиксированную скидку корзины»."
+
+#: admin/admin.php:945
+msgid "Only send coupons if author's email is registered an account"
+msgstr "Отправляйте купоны только в том случае, если адрес электронной почты автора зарегистрирован в аккаунте"
+
+#: admin/admin.php:940
+msgid "Registered-account email is required"
+msgstr "Требуется электронная почта зарегистрированного аккаунта"
+
+#: admin/admin.php:951 frontend/frontend.php:1071
+msgid "Photo is required"
+msgstr "Требуется фотография"
+
+#: admin/admin.php:964
+msgid "Required rating"
+msgstr "Требуемая оценка"
+
+#: admin/admin.php:998
+msgid "Required products"
+msgstr "Необходимые товары"
+
+#: admin/admin.php:763
+msgid "Ajax pagination"
+msgstr "Ajax пагинация"
+
+#: admin/admin.php:772
+msgid "Reviews container"
+msgstr "Контейнер для отзывов"
+
+#: admin/admin.php:781
+msgid "Reviews anchor link"
+msgstr "Якорная ссылка на отзывы"
+
+#: admin/admin.php:663
+msgid "Hide name"
+msgstr "Скрыть имя"
+
+#: admin/admin.php:672
+msgid "Verified owner badge"
+msgstr "Значок подтвержденного владельца"
+
+#: admin/admin.php:718
+msgid "Display product summary on masonry popup"
+msgstr "Отображение описания продукта на всплывающем окне popup"
+
+#: admin/admin.php:584
+msgid "Sort reviews by"
+msgstr "Сортировать отзывы по"
+
+#: admin/admin.php:617
+msgid "Show review tab first"
+msgstr "Сначала показывать вкладку обзора"
+
+#: admin/admin.php:433
+msgid "Rating Counts & Filters"
+msgstr "Подсчет рейтингов и фильтры"
+
+#: admin/admin.php:469
+msgid "Enable Multilingual"
+msgstr "Включить многоязычный"
+
+#: admin/admin.php:639
+msgid "GDPR message"
+msgstr "Сообщение GDPR"
+
+#: admin/admin.php:211 admin/admin.php:220
+msgid "Preview emails"
+msgstr "Предварительный просмотр писем"
+
+#: frontend/frontend.php:885
+msgid "Thank You For Your Review!"
+msgstr "Спасибо Вам за отзыв!"
+
+#: templates/viwcpr-comment-field-html.php:16
+msgid "Choose pictures"
+msgstr "Выбрать картинки"
+
+#: admin/admin.php:1176
+msgid "Coupon will expire after x(days) since it's generated and sent. Set 0 or blank to make it never expire."
+msgstr "Срок действия купона истечет через x (дней) с момента его создания и отправки. Установите 0 или пусто, чтобы срок его действия не истек."
+
+#: admin/admin.php:1091
+msgid "If enabled, coupon will be used for received emails only."
+msgstr "Если включено, купон будет использоваться только для полученных писем."
+
+#: admin/admin.php:1084
+msgid "Set email restriction"
+msgstr "Установите ограничение на электронную почту"
+
+#: admin/admin.php:1055
+msgid "The heading of emails sending to customers which include discount coupon code."
+msgstr "Заголовок электронных писем, отправляемых клиентам, с кодом купона на скидку."
+
+#: admin/admin.php:1035
+msgid "Reviews on products in these categories will not receive coupon"
+msgstr "Обзоры товаров в этих категориях не получат купон"
+
+#: admin/admin.php:1029
+msgid "Exclude categories to give coupon"
+msgstr "Исключить категории, чтобы дать купон"
+
+#: admin/admin.php:1024
+msgid "Only reviews on products in these categories can receive coupon"
+msgstr "Только отзывы о товарах в этих категориях могут получить купон"
+
+#: admin/admin.php:1018
+msgid "Required categories"
+msgstr "Обязательные категории"
+
+#: admin/admin.php:1013
+msgid "Reviews on these products will not receive coupon"
+msgstr "Обзоры на эти товары не получат купон"
+
+#: admin/admin.php:1008
+msgid "Exclude products to give coupon"
+msgstr "Исключить продукты, чтобы дать купон"
+
+#: admin/admin.php:786
+msgid "This is the anchor link to your reviews form. Enter without a hash(#). This will be linked after product links in reviews reminder or when customers click on a filter on frontend."
+msgstr "Это якорная ссылка на вашу форму отзывов. Введите без решетки (#). Это будет связано после ссылок на товары в напоминаниях об отзывах или когда клиенты нажимают на фильтр во внешнем интерфейсе."
+
+#: frontend/frontend.php:882
+msgid "never expires"
+msgstr "никогда не заканчивается"
+
+#: templates/viwcpr-template-basic-html.php:48
+msgid "Rotate right 90 degrees"
+msgstr "Повернуть вправо на 90 градусов"
+
+#: templates/viwcpr-template-basic-html.php:47
+msgid "Rotate left 90 degrees"
+msgstr "Повернуть влево на 90 градусов"
+
+#: templates/viwcpr-comment-field-html.php:37
+msgid "I agree with the term and condition."
+msgstr "Я соглашаюсь с условиями и положениями."
+
+#: admin/admin.php:1249
+msgid "Products that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied"
+msgstr "Товары, к которым будет применен купон или которые должны быть в корзине, чтобы применить \"Фиксированную скидку на корзину\""
+
+#. translators: %s: max file count
+#: frontend/single-page.php:193
+msgid "You can only upload maximum of %s file"
+msgid_plural "You can only upload maximum of %s files"
+msgstr[0] "Вы можете загрузить не более %s файла"
+msgstr[1] "Вы можете загрузить не более %s файла"
+msgstr[2] "Вы можете загрузить не более %s файла"
+
+#: frontend/single-page.php:183
+msgid "Please agree with our term and policy."
+msgstr "Пожалуйста, согласитесь с нашими условиями и политикой."
+
+#: frontend/frontend.php:289 frontend/frontend.php:295
+#: templates/viwcpr-filters-html.php:39 templates/viwcpr-filters-html.php:54
+msgid "All stars"
+msgstr "Все звезды"
+
+#. translators: %s: query rating
+#. translators: %s: star rating
+#. translators: %s: number star rating
+#: frontend/frontend.php:286 frontend/frontend.php:309
+#: templates/viwcpr-filters-html.php:35 templates/viwcpr-filters-html.php:68
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s звезда"
+msgstr[1] "%s звезда"
+msgstr[2] "%s звезда"
+
+#: frontend/frontend.php:282 templates/viwcpr-filters-html.php:27
+msgid "Verified"
+msgstr "Проверено"
+
+#: frontend/frontend.php:267 templates/viwcpr-filters-html.php:23
+msgid "With images"
+msgstr "С изображениями"
+
+#: admin/admin.php:1518
+msgid "{date_complete} - Order's completed date."
+msgstr "{date_complete} - Дата завершения заказа."
+
+#: admin/admin.php:1517
+msgid "{date_create} - Order's created date."
+msgstr "{date_create} - Дата создания заказа."
+
+#: admin/admin.php:1516
+msgid "{site_title} - Your site title."
+msgstr "{site_title} - название вашего сайта."
+
+#: admin/admin.php:1515
+msgid "{order_id} - Order id."
+msgstr "{order_id} - идентификатор заказа."
+
+#: frontend/frontend.php:177 templates/viwcpr-overall-rating-html.php:19
+msgid "Customer reviews"
+msgstr "Отзывы клиентов"
+
+#. translators: %s: number of review
+#. translators: %s: review count
+#: frontend/frontend.php:180 templates/viwcpr-overall-rating-html.php:35
+msgid "Based on %s review"
+msgid_plural "Based on %s reviews"
+msgstr[0] "На основании %s отзыва"
+msgstr[1] "На основании %s отзыва"
+msgstr[2] "На основании %s отзыва"
+
+#: admin/admin.php:821
+msgid "Overall rating"
+msgstr "Общий рейтинг"
+
+#: admin/admin.php:626
+msgid "GDPR checkbox"
+msgstr "Чекбокс GDPR"
+
+#: admin/admin.php:1442
+msgid "Schedule a time to send request email after an order is marked as completed."
+msgstr "Запланируйте время для отправки электронного письма с запросом после того, как заказ будет отмечен как выполненный."
+
+#: admin/admin.php:1441
+msgid "Schedule time"
+msgstr "Время расписания"
+
+#: admin/admin.php:1412
+msgid "These products will not appear in review reminder email."
+msgstr "Эти продукты не будут отображаться в электронном письме с напоминанием об обзоре."
+
+#: admin/admin.php:1254 admin/admin.php:1406
+msgid "Exclude products"
+msgstr "Исключить товары"
+
+#: admin/admin.php:1392
+msgid "Review reminder"
+msgstr "Напоминание об отзыве"
+
+#: admin/admin.php:1106
+msgid "Choose to send an existing coupon or generate unique coupons."
+msgstr "Выберите отправку существующего купона или создание уникальных купонов."
+
+#: admin/admin.php:1097
+msgid "Select coupon kind"
+msgstr "Выберите вид купона"
+
+#: admin/admin.php:1003
+msgid "Only reviews on selected products can receive coupons. Leave blank to apply for all products"
+msgstr "Только обзоры на выбранные товары могут получать купоны. Оставьте поле пустым, чтобы подать заявку на все товары"
+
+#: admin/admin.php:983
+msgid "Only send coupon for reviews from purchased customers."
+msgstr "Отправляйте купон только для отзывов от клиентов, которые купили."
+
+#: admin/admin.php:976
+msgid "Verified owner is required"
+msgstr "Требуется проверенный владелец"
+
+#: admin/admin.php:965
+msgid "Only send coupons for reviews with same or higher than this rating"
+msgstr "Отправляйте купоны только для отзывов с таким же или более высоким рейтингом"
+
+#: admin/admin.php:958
+msgid "Only send coupons for reviews including photos"
+msgstr "Отправляйте купоны только за отзывы, включая фотографии"
+
+#: admin/admin.php:934
+msgid "Send coupon to customers when their reviews are approved"
+msgstr "Отправляйте купон клиентам, когда их отзывы будут одобрены"
+
+#: admin/admin.php:793
+msgid "Custom CSS"
+msgstr "Произвольный CSS"
+
+#: admin/admin.php:491
+msgid "Allow customers to attach photos in their review."
+msgstr "Разрешите клиентам прикреплять фотографии к обзору."
+
+#: admin/admin.php:484
+msgid "Include photos"
+msgstr "Включить фотографии"
+
+#: admin/admin.php:1756
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: admin/admin.php:1730 admin/admin.php:1745
+msgid "Remove"
+msgstr "Убрать"
+
+#: admin/admin.php:652
+msgid "Rating stars color"
+msgstr "Цвет звездочки рейтинга"
+
+#: admin/admin.php:754
+msgid "Review text color"
+msgstr "Цвет текста отзыва"
+
+#: admin/admin.php:745
+msgid "Grid item background color"
+msgstr "Цвет фона пункта меню"
+
+#: admin/admin.php:510
+msgid "Maximum photo size"
+msgstr "Максимальный размер фото"
+
+#: admin/admin.php:521
+msgid "The maximum size of a single picture can be uploaded."
+msgstr "Можно загрузить одно изображение максимального размера."
+
+#: admin/admin.php:528
+msgid "Maximum photo quantity"
+msgstr "Максимальное количество фото"
+
+#: admin/admin.php:537
+msgid "The maximum quantity of photos can be uploaded with a review."
+msgstr "С рецензией можно загрузить максимальное количество фотографий."
+
+#: admin/admin.php:569
+msgid "Photo required"
+msgstr "Требуется фотография"
+
+#: admin/admin.php:579
+msgid "Reviews must include photo to be uploaded."
+msgstr "Обзоры должны включать фото для загрузки."
+
+#: admin/admin.php:680
+msgid "Front-end style"
+msgstr "Фронтенд стиль"
+
+#: admin/admin.php:727
+msgid "Number of columns"
+msgstr "Число столбцов"
+
+#: admin/admin.php:736
+msgid "Grid background color"
+msgstr "Цвет фона сетки"
+
+#: admin/admin.php:690
+msgid " Grid(masonry)."
+msgstr " Решетка (кладка)."
+
+#: admin/admin.php:698
+msgid " Normal."
+msgstr " Обычный."
+
+#: admin/admin.php:597
+msgid " Newest first"
+msgstr " Сначала новые"
+
+#: admin/admin.php:608
+msgid " Oldest first"
+msgstr " Сначала старые"
+
+#: admin/admin.php:989
+msgid "Review form description"
+msgstr "Описание формы отзыва"
+
+#: admin/admin.php:1687
+msgid "Photo"
+msgstr "Фотография"
+
+#: admin/admin.php:1769
+msgid "Rating"
+msgstr "Оценка"
+
+#: admin/admin.php:1533
+msgid "Button \"Review now\" background color"
+msgstr "Кнопка \"Просмотреть сейчас\" цвет фона"
+
+#: admin/admin.php:1524
+msgid "Button \"Review now\" text color"
+msgstr "Кнопка \"Просмотреть сейчас\" цвет текста"
+
+#: admin/admin.php:1180 admin/admin.php:1468
+msgid "Days"
+msgstr "Дней"
+
+#: admin/admin.php:1175
+msgid "Time To Live"
+msgstr "Время жизни"
+
+#: woo-photo-reviews.php:82
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/admin.php:1483
+msgid "The subject of emails sending to customers to request for reviews."
+msgstr "Тема электронных писем, отправляемых клиентам с просьбой оставить отзыв."
+
+#: admin/admin.php:312 frontend/frontend.php:551
+msgid "Review Now"
+msgstr "Проверить сейчас"
+
+#: admin/admin.php:1679
+msgid "Your settings have been saved!"
+msgstr "Ваши настройки сохранены!"
+
+#: admin/admin.php:1050 admin/admin.php:1488
+msgid "Email heading"
+msgstr "Заголовок письма"
+
+#: admin/admin.php:971
+msgid "Stars"
+msgstr "Звезды"
+
+#: admin/admin.php:909
+msgid "Filter button background color"
+msgstr "Цвет фона кнопки фильтра"
+
+#: admin/admin.php:898
+msgid "Filter button color"
+msgstr "Цвет кнопки фильтра"
+
+#: admin/admin.php:887
+msgid "Filter buttons border color"
+msgstr "Цвет границы кнопок фильтра"
+
+#: admin/admin.php:875
+msgid "Filter area backgroud color"
+msgstr "Цвет фона области фильтра"
+
+#: admin/admin.php:864
+msgid "Filter area border color"
+msgstr "Цвет границы области фильтра"
+
+#: admin/admin.php:431
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: admin/admin.php:848
+msgid "Filters"
+msgstr "Фильтры"
+
+#: admin/admin.php:437
+msgid "Review Reminder"
+msgstr "Напоминание об отзыве"
+
+#: admin/admin.php:456
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: admin/admin.php:473 admin/admin.php:502 admin/admin.php:535
+#: admin/admin.php:621 admin/admin.php:667 admin/admin.php:676
+#: admin/admin.php:722 admin/admin.php:731 admin/admin.php:740
+#: admin/admin.php:749 admin/admin.php:758 admin/admin.php:767
+#: admin/admin.php:776 admin/admin.php:944 admin/admin.php:1002
+#: admin/admin.php:1012 admin/admin.php:1023 admin/admin.php:1034
+#: admin/admin.php:1381 admin/admin.php:1411 admin/admin.php:1422
+#: admin/admin.php:1434 admin/admin.php:1528 admin/admin.php:1537
+msgid "Upgrade This Feature"
+msgstr "Обновите эту функцию"
+
+#: admin/admin.php:834
+msgid "Ratings count bar color"
+msgstr "Цвет полосы подсчета рейтингов"
+
+#: admin/admin.php:1818
+msgid "Photo Reviews"
+msgstr "Photo Reviews"
+
+#: admin/admin.php:435
+msgid "Coupon"
+msgstr "Купон"
+
+#: admin/admin.php:1767
+msgid "Photos"
+msgstr "Фотографии"
+
+#: admin/admin.php:429
+msgid "General"
+msgstr "Основные"
+
+#: admin/admin.php:444
+msgid "Enable"
+msgstr "Включить"
+
+#: admin/admin.php:1825
+msgid "Status"
+msgstr "Состояние"
+
+#: admin/admin.php:1825
+msgid "System Status"
+msgstr "Состояние системы"
+
+#: admin/admin.php:349
+msgid "System status"
+msgstr "Статус системы"
+
+#: admin/admin.php:925
+msgid "Coupon for reviews"
+msgstr "Купон на отзывы"
+
+#: admin/admin.php:354
+msgid "File upload:"
+msgstr "Загрузка файла:"
+
+#: admin/admin.php:1060 admin/admin.php:1498
+msgid "Email content"
+msgstr "Содержимое письма"
+
+#: admin/admin.php:1493
+msgid "The heading of emails sending to customers to request for reviews."
+msgstr "Заголовок писем, отправляемых клиентам с просьбой оставить отзыв."
+
+#: admin/admin.php:1040 admin/admin.php:1477
+msgid "Email subject"
+msgstr "Тема письма"
+
+#: admin/admin.php:1464
+msgid "Hours"
+msgstr "Часов"
+
+#: admin/admin.php:1460
+msgid "Minutes"
+msgstr "Минут"
+
+#: admin/admin.php:1456
+msgid "Seconds"
+msgstr "Секунд"
+
+#: admin/admin.php:1400
+msgid "If checked, an email will be automatically sent when a customer completes an order to request for a review."
+msgstr "Если этот флажок установлен, электронное письмо будет автоматически отправлено, когда клиент завершит заказ, чтобы запросить отзыв."
+
+#: admin/admin.php:396
+msgid "plus"
+msgstr "плюс"
+
+#: admin/admin.php:396
+msgid "Max file upload"
+msgstr "Максимальное количество загружаемых файлов"
+
+#: admin/admin.php:395
+msgid "should be greater than"
+msgstr "должно быть больше, чем"
+
+#: admin/admin.php:395
+msgid "Post maxsize"
+msgstr "Максимальный размер публикации"
+
+#: admin/admin.php:385
+msgid "Post maxsize:"
+msgstr "Максимальный размер публикации:"
+
+#: admin/admin.php:376
+msgid "Max file uploads:"
+msgstr "Максимальное количество загружаемых файлов:"
+
+#: admin/admin.php:367
+msgid "Upload max filesize:"
+msgstr "Upload max filesize (максимальный размер загрузки):"
+
+#: admin/admin.php:1499
+msgid "The content of email sending to customers to ask for reviews."
+msgstr "Содержание электронного письма, отправляемого клиентам с просьбой оставить отзыв."
+
+#: admin/admin.php:1076 admin/admin.php:1514
+msgid "{customer_name} - Customer's name."
+msgstr "{customer_name} - имя клиента."
+
+#: admin/admin.php:809
+msgid "Ratings count"
+msgstr "Подсчет рейтингов"
+
+#: admin/admin.php:1576
+msgid "You have to enable the use of coupon on WooCommerce settings page to use Coupon feature!"
+msgstr "Вы должны включить использование купона на странице настроек WooCommerce, чтобы использовать функцию купона!"
+
+#: admin/admin.php:1585
+msgid "Please select a coupon then save settings!"
+msgstr "Пожалуйста, выберите купон и сохраните настройки!"
+
+#: admin/admin.php:1233 admin/admin.php:1260
+msgid "Please Fill In Your Product Title"
+msgstr "Пожалуйста, заполните название вашего товара"
+
+#: admin/admin.php:1045
+msgid "The subject of emails sending to customers which include discount coupon code."
+msgstr "Тема электронных писем, отправляемых клиентам, с кодом купона на скидку."
+
+#: admin/admin.php:1061
+msgid "The content of email sending to customers to inform them the coupon code they get for leaving reviews."
+msgstr "Содержание электронного письма, отправляемого клиентам, чтобы сообщить им код купона, который они получают за оставление отзывов."
+
+#: admin/admin.php:1077
+msgid "{coupon_code} - Discount coupon code will be sent to customer."
+msgstr "{coupon_code} - Клиенту будет выслан код купона на скидку."
+
+#: admin/admin.php:1078
+msgid "{date_expires} - Expiry date of the coupon."
+msgstr "{date_expires} - Дата истечения срока действия купона."
+
+#: admin/admin.php:1101
+msgid "Generate unique coupon"
+msgstr "Создайте уникальный купон"
+
+#: admin/admin.php:1103 admin/admin.php:1111
+msgid "Select an existing coupon"
+msgstr "Выберите существующий купон"
+
+#: admin/admin.php:1116
+msgid "Please Fill In Your Coupon Code"
+msgstr "Пожалуйста, введите код купона"
+
+#: admin/admin.php:1129
+msgid "Settings For Unique Coupon"
+msgstr "Настройки уникального купона"
+
+#: admin/admin.php:1134
+msgid "Discount Type"
+msgstr "Тип скидки"
+
+#: admin/admin.php:1139
+msgid "Percentage discount"
+msgstr "Скидка в процентах"
+
+#: admin/admin.php:1141
+msgid "Fixed cart discount"
+msgstr "Скидка на фиксированную корзину"
+
+#: admin/admin.php:1143
+msgid "Fixed product discount"
+msgstr "Фиксированная скидка на товар"
+
+#: admin/admin.php:1151
+msgid "Coupon Amount"
+msgstr "Величина купона"
+
+#: admin/admin.php:1157
+msgid "Value of the coupon."
+msgstr "Величина скидки предоставляемой купоном."
+
+#: admin/admin.php:1161
+msgid "Allow Free Shipping"
+msgstr "Разрешить бесплатную доставку"
+
+#: admin/admin.php:1185
+msgid "Minimum Spend"
+msgstr "Минимальные расходы"
+
+#: admin/admin.php:1192
+msgid "The minimum spend to use the coupon."
+msgstr "Минимальная сумма для использования купона."
+
+#: admin/admin.php:1191
+msgid "No minimum"
+msgstr "Нет минимальной суммы"
+
+#: admin/admin.php:1197
+msgid "Maximum Spend"
+msgstr "Максимальные расходы"
+
+#: admin/admin.php:1202
+msgid "No maximum"
+msgstr "Нет максимальной суммы"
+
+#: admin/admin.php:1203
+msgid "The maximum spend to use the coupon."
+msgstr "Максимальная скорость использования купона."
+
+#: admin/admin.php:1207
+msgid "Individual Use Only"
+msgstr "Только для индивидуального использования"
+
+#: admin/admin.php:1213
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr "Установите этот флажок, если купон не может быть использован в сочетании с другими купонами."
+
+#: admin/admin.php:1217
+msgid "Exclude Sale Items"
+msgstr "Исключить товары со скидкой"
+
+#: admin/admin.php:1334
+msgid "Usage Limit Per Coupon"
+msgstr "Лимит использования на купон"
+
+#: admin/admin.php:1342
+msgid "How many times this coupon can be used before it is void."
+msgstr "Сколько раз можно использовать этот купон, прежде чем он станет недействительным."
+
+#: admin/admin.php:1347
+msgid "Limit Usage To X Items"
+msgstr "Ограничить использование до X элементов"
+
+#. Author URI of the plugin
+#: woo-photo-reviews.php
+msgid "http://villatheme.com"
+msgstr "http://villatheme.com"
+
+#. Author of the plugin
+#: woo-photo-reviews.php
+msgid "VillaTheme"
+msgstr "VillaTheme"
+
+#. Description of the plugin
+#: woo-photo-reviews.php
+msgid "Allow you to automatically send email to your customers to request reviews. Customers can include photos in their reviews."
+msgstr "Позвольте вам автоматически отправлять электронное письмо вашим клиентам для запроса отзывов. Покупатели могут включать фотографии в свои отзывы."
+
+#. Plugin URI of the plugin
+#: woo-photo-reviews.php
+msgid "https://villatheme.com/extensions/woocommerce-photo-reviews/"
+msgstr "https://villatheme.com/extensions/woocommerce-photo-reviews/"
+
+#: templates/viwcpr-template-masonry-html.php:95
+msgid "Your review is awaiting approval"
+msgstr "Ваш комментарий ожидает подтверждения"
+
+#: frontend/frontend.php:925
+msgid "Thank you for reviewing our product. A coupon code has been sent to your email address. Please check your mailbox for more details."
+msgstr "Спасибо за обзор нашего продукта. Код купона был отправлен на ваш адрес электронной почты. Пожалуйста, проверьте свой почтовый ящик для получения более подробной информации."
+
+#: admin/admin.php:1377
+msgid "Coupon Code Prefix"
+msgstr "Префикс кода купона"
+
+#: admin/admin.php:1370
+msgid "Unlimited Usage"
+msgstr "Неограниченное использование"
+
+#: admin/admin.php:1372
+msgid "How many times this coupon can be used by an individual user."
+msgstr "Сколько раз этот купон может быть использован отдельным пользователем."
+
+#: admin/admin.php:1362
+msgid "Usage Limit Per User"
+msgstr "Лимит применения на пользователя"
+
+#: admin/admin.php:1355
+msgid "Apply To All Qualifying Items In Cart"
+msgstr "Применить ко всем подходящим товарам в корзине"
+
+#: admin/admin.php:1357
+msgid "The maximum number of individual items this coupon can apply to when using product discount."
+msgstr "Максимальное количество отдельных товаров, к которым может применяться этот купон при использовании скидки на товар."
+
+#: admin/admin.php:397
+msgid " Upload max filesize."
+msgstr " Upload max filesize (максимальный размер загрузки)."
+
+#: admin/admin.php:1167
+msgid "Check this box if the coupon grants free shipping. A "
+msgstr "Установите этот флажок, если по купону предоставляется бесплатная доставка. "
+
+#: admin/admin.php:1169
+msgid "free shipping method"
+msgstr "Бесплатный способ доставки"
+
+#: admin/admin.php:1169
+msgid " must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr " должен быть включен в вашей зоне доставки и должен быть настроен так, чтобы требовать «действующий купон на бесплатную доставку» (см. параметр «Требуется бесплатная доставка»)."
+
+#: admin/admin.php:1223
+msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale."
+msgstr "Установите этот флажок, если купон не должен применяться к товарам, участвующим в распродаже. Купоны на каждый товар будут работать только в том случае, если товар не участвует в распродаже. Купоны на каждую отдельную корзину будут работать только в том случае, если товары в корзине не участвуют в распродаже."
+
+#: admin/admin.php:1569
+msgid "You have to enable WooCommerce product reviews on WooCommerce settings page to use Photo Reviews for WooCommerce and its features!"
+msgstr "Вы должны включить обзоры продуктов WooCommerce на странице настроек WooCommerce, чтобы использовать Photo Reviews for WooCommerce и его функций!"
