@@ -1,0 +1,7 @@
+Логин и пароль проекта 
+Логин: marina
+Пароль: marinalox
+
+Ссылки на прототипы 
+UX: https://www.figma.com/design/9cenJc4yub1CKDlUqOfkqE/Untitled?node-id=0-1&m=dev&t=jdFyq6gvnOixVx85-1
+UI: https://www.figma.com/design/9cenJc4yub1CKDlUqOfkqE/Untitled?node-id=200-156&m=dev&t=jdFyq6gvnOixVx85-1
